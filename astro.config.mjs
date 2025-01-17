@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://sitiowebr.github.io/veramendi',
-  base: '/veramendi',
+  site: 'https://sitiowebr.github.io/veramendi.dxn',
+  base: '/veramendi.dxn',
 });

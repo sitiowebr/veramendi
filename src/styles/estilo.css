@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/fondo.png'); /* Imagen de fondo */
+    background-size: cover; /* Extender la imagen de fondo para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+    background-attachment: fixed; /* Fijar la imagen de fondo */
+  }
+  .container {
+    border: 2px solid orange;
+    max-width: 500px; /* Aumento del ancho máximo */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Cambio de color de fondo */
+    border-radius: 8px; /* Añadido borde redondeado */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Añadida sombra */
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Añadido para centrar las imágenes */
+    margin: 0 auto 20px; /* Añadido margen inferior */
+    border-radius: 8px; /* Añadido borde redondeado */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Añadida sombra */
+  }
+  .description {
+    margin-top: 20px;
+    text-align: justify; /* Justificar el texto */
+    background: rgb(192,192,192) ;
+    padding: 1px;
+    border-radius: 8px; /* Añadido borde redondeado */
+  }
+  .codigo {
+    margin-top: 20px;
+    background-color: rgb(255,192,192) ; /* Cambio de color de fondo */
+    padding: 15px;
+    border-radius: 8px; /* Añadido borde redondeado */
+  }
+  .codigo p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .codigo a {
+  word-wrap: break-word; /* Esta propiedad permite que el texto se ajuste al ancho del contenedor */
+  font-size: 13px;
+  color: blue;
+  }
+  h4 {
+    text-align: center; /* Centrar el texto */
+  }
+  .contact{
+    margin-top: 20px;
+    text-align: center; /* Centrar los elementos */
+  }
+  .contact a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  .contact a img {
+    width: 50px; /* Ajusta el ancho según tu preferencia */
+    height: 50px; /* Ajusta la altura según tu preferencia */
+    margin-bottom: 5px; /* Espacio entre el icono y el texto */
+  }
+  .social-links{
+    margin-top: 20px;
+    text-align: center; /* Centrar los elementos */
+  }
+  .social-links a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  .social-links a img {
+    width: 30px; /* Ajusta el ancho según tu preferencia */
+    height: 30px; /* Ajusta la altura según tu preferencia */
+    margin-bottom: 5px; /* Espacio entre el icono y el texto */
+  }
+  
+  /* Media query para dispositivos con un ancho máximo de 600px */
+  @media screen and (max-width: 600px) {
+    .container {
+      max-width: 100%; /* Cambio del ancho máximo al 100% */
+      border-radius: 0; /* Eliminar borde redondeado en dispositivos pequeños */
+      box-shadow: none; /* Eliminar sombra en dispositivos pequeños */
+    }
+  }
+  
